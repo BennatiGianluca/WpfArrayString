@@ -46,7 +46,7 @@ namespace WpfArrayString
         private void btnStampa_Click(object sender, RoutedEventArgs e)
         {
             btnStampa.IsEnabled = false;
-            for (c = 0; c < array.Length; c++)
+            for (c = 0; c < array.Length;c++)
             {
                 LblRi.Content += $"Posizione {c} : {array[c]} \n";
             } 
